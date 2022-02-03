@@ -40,6 +40,7 @@ const Header = ({ category, setcategory, word, setword , mode}) => {
             ))}
 
           </TextField>
+          
         </ThemeProvider>
       </div>
     </div>

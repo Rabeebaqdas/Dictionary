@@ -6,7 +6,7 @@ const Definations = ({ category, word, meaning, mode }) => {
         <div className='meanings'>
             {
                 meaning[0] && word && category === "en" && (
-                    <audio src={meaning[0]?.phonetics[0]?.audio} style={{ backgroundColor: "#fff", borderRadius: 10, width:"100%" }}
+                    <audio src={meaning[0]?.phonetics[0]?.audio} style={{ borderRadius: 10, width:"100%" }}
                         controls
                     >
                         Your Browser doesn't support audio element.
